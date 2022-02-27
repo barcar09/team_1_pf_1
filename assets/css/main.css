@@ -1350,7 +1350,7 @@ ul.icons {
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon {
-      color: inherit; }
+      color: rgb(0, 0, 0); }
       ul.icons li .icon:before {
         font-size: 1.25em; }
 
@@ -1493,7 +1493,7 @@ button,
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   background-color: transparent;
-  border-radius: 0.375em;
+  border-radius: 50%;
   border: 0;
   box-shadow: inset 0 0 0 2px #f56a6a;
   color: #f56a6a !important;
@@ -1515,13 +1515,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: rgba(12, 160, 36, 0.5); }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgba(245, 106, 106, 0.15); }
+    background-color: rgba(106, 108, 245, 0.15); }
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
