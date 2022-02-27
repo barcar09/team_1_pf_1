@@ -2191,6 +2191,17 @@ button,
   font-size: 0.9em; }
   #footer .copyright a {
     color: inherit; }
+.footer-social-media {
+    border: 2px solid tomato;
+    list-style: none;
+  }
+.footer-social-item p {
+   margin: 10px;
+  }
+
+.fa-brands {
+  color: tomato
+}
 
 /* Menu */
 #menu ul {
